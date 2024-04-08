@@ -5,3 +5,5 @@
 </div>
 
 
+![](https://github.com/vishnu-krishna/expense-tracker/blob/main/Expense_Tracker.gif)
+

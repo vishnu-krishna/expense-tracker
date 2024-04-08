@@ -15,11 +15,13 @@ import passport from 'passport';
 import { buildContext } from 'graphql-passport';
 import path from 'path';
 import { configurePassport } from './passport/passport.config.js';
+import job from './cron.js';
+
 
 dotenv.config();
 configurePassport();
 
-// job.start();
+job.start();
 
 const __dirname = path.resolve();
 // Required logic for integrating with Express
